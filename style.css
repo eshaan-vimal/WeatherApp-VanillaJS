@@ -1,0 +1,100 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body
+{
+    background-color: hsla(0, 0%, 2%, 0.91);
+}
+
+.appTitle
+{
+    margin: 25px;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+hr
+{
+    border: ridge 4px hsla(192, 46%, 89%, 0.756);
+}
+
+.appForm
+{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.appForm .appTextbox
+{
+    margin-right: 13px;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.appForm .appSubmit
+{
+    margin-left: 13px;
+    padding: 10px 15px;
+    font-size: 1.3em;
+    border: none;
+    border-radius: 15px;
+    /* background-color: hsla(193, 80%, 68%, 0.817); */
+    background-color: hsl(160, 100%, 55%);
+    color: black;
+    cursor: pointer;
+}
+
+.appSubmit:hover
+{
+    background-color: hsl(160, 100%, 65%);
+    font-weight: bold;
+    box-shadow: 0px 0px 20px hsla(51, 100%, 66%, 0.849);
+}
+
+.appWeather
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 36%;
+    border-radius: 25px;
+    background: linear-gradient(180deg, rgba(255, 234, 114, 0.92), hsla(193, 80%, 68%, 0.888));
+    color: black;
+}
+
+.appWeather p
+{
+    margin: 15px;
+    color: hsla(0, 0%, 0%, 0.832);
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.appWeather .info
+{
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+.appWeather .infoEmoji
+{
+    margin: 0;
+    font-size: 3.5em;
+}
+
+.appWeather .error
+{
+    color: hsl(0, 100%, 38%);
+}
